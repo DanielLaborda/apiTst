@@ -1,5 +1,5 @@
 flask
 pandas
 gunicorn
-SQLAlchemy
-Marshmallow
+flask_sqlalchemy
+flask_marshmallow
