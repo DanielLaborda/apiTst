@@ -12,7 +12,7 @@ for m in data.index:
     series.loc[data.loc[m].s:data.loc[m].e] = m
 
 app = flask.Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://dlmotorroot:dlmotorroot@db4free.net/dlmotor'
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://dlmotorroot:dlmotorroot@db4free.net/dlmotor'
 
 @app.route('/', methods=['GET'])
 def home():
